@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */; };
+		1FE28BABA0D5839D917E078B /* macmainwindow.mm in Build Sources */ = {isa = PBXBuildFile; fileRef = 6B65AC8BEAF6352843D70DBD /* macmainwindow.mm */; settings = {ATTRIBUTES = (); }; };
+		2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 118FCBAABA162BA17933C789 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 9B36DA7E32F0304E780E7972 /* QtGui.framework */; };
+		5FB5AA55D68D4337904C30CF /* moc_macmainwindow.cpp in Build Sources */ = {isa = PBXBuildFile; fileRef = 4D31E282FA8DB71891BE3CF7 /* moc_macmainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		77C663449ABEE93BEE5F2771 /* Cocoa.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = 336CB11D929F5E35FA69020F /* Cocoa.framework */; };
+		C8FD4A1AAA37CF2CA2824CCF /* Carbon.framework in Frameworks & Libraries */ = {isa = PBXBuildFile; fileRef = DA138F75C9F545CDAE7FB264 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		118FCBAABA162BA17933C789 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		12F2EAB81889627100CF5DCE /* macmainwindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macmainwindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336CB11D929F5E35FA69020F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		4D31E282FA8DB71891BE3CF7 /* moc_macmainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moc_macmainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		6B65AC8BEAF6352843D70DBD /* macmainwindow.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = macmainwindow.mm; sourceTree = SOURCE_ROOT; };
+		7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Library/Frameworks/QtCore.framework; sourceTree = "<absolute>"; };
+		9B36DA7E32F0304E780E7972 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Library/Frameworks/QtGui.framework; sourceTree = "<absolute>"; };
+		AC23D463FD6DC144E2CDC2BA /* macmainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macmainwindow.h; sourceTree = SOURCE_ROOT; };
+		DA138F75C9F545CDAE7FB264 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F5B0075EF7E25500C28D58CF /* macmainwindow_Qt4.8.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = macmainwindow_Qt4.8.pro; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A1043669E6E5A7426EA502A /* Frameworks & Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C663449ABEE93BEE5F2771 /* Cocoa.framework in Frameworks & Libraries */,
+				C8FD4A1AAA37CF2CA2824CCF /* Carbon.framework in Frameworks & Libraries */,
+				501667F26B3C1FF6767A7C12 /* QtGui.framework in Frameworks & Libraries */,
+				069D05B0128AE5DC7EE31738 /* QtCore.framework in Frameworks & Libraries */,
+			);
+			name = "Frameworks & Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05596AB53D8D521C69802C27 /* macmainwindow */ = {
+			isa = PBXGroup;
+			children = (
+				FB61758D0F0FDA4BA867C3D5 /* Sources */,
+				46E892BBB6BB6952967E0561 /* Temporary Sources */,
+				883D7615C4D2DE3FA1218F12 /* Headers */,
+				7CABE3C80E79AD2B307756D2 /* Sources [qmake] */,
+				3E4431212F852BE94A75A1A8 /* Sources [Compile] */,
+				ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */,
+				12F2EAB91889627100CF5DCE /* Products */,
+			);
+			name = macmainwindow;
+			sourceTree = "<Group>";
+		};
+		12F2EAB91889627100CF5DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F2EAB81889627100CF5DCE /* macmainwindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4431212F852BE94A75A1A8 /* Sources [Compile] */ = {
+			isa = PBXGroup;
+			children = (
+				6B65AC8BEAF6352843D70DBD /* macmainwindow.mm */,
+			);
+			name = "Sources [Compile]";
+			sourceTree = "<Group>";
+		};
+		46E892BBB6BB6952967E0561 /* Temporary Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4D31E282FA8DB71891BE3CF7 /* moc_macmainwindow.cpp */,
+			);
+			name = "Temporary Sources";
+			sourceTree = "<Group>";
+		};
+		7CABE3C80E79AD2B307756D2 /* Sources [qmake] */ = {
+			isa = PBXGroup;
+			children = (
+				F5B0075EF7E25500C28D58CF /* macmainwindow_Qt4.8.pro */,
+			);
+			name = "Sources [qmake]";
+			sourceTree = "<Group>";
+		};
+		883D7615C4D2DE3FA1218F12 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AC23D463FD6DC144E2CDC2BA /* macmainwindow.h */,
+			);
+			name = Headers;
+			sourceTree = "<Group>";
+		};
+		ED1E82605DD74B483AF3C982 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				336CB11D929F5E35FA69020F /* Cocoa.framework */,
+				DA138F75C9F545CDAE7FB264 /* Carbon.framework */,
+				9B36DA7E32F0304E780E7972 /* QtGui.framework */,
+				7BC2E65A5E699A5E5D834CA2 /* QtCore.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<Group>";
+		};
+		FB61758D0F0FDA4BA867C3D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				118FCBAABA162BA17933C789 /* main.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09EDD45DEA4946F7400D7B8A /* macmainwindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "macmainwindow" */;
+			buildPhases = (
+				D7BA7D76DAB5DD13389D6332 /* Qt Qmake */,
+				A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */,
+				C29B8785722055ED95EF7B57 /* Build Sources */,
+				2A1043669E6E5A7426EA502A /* Frameworks & Libraries */,
+				3787F99312C85FF0073FD7BA /* Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macmainwindow;
+			productName = macmainwindow;
+			productReference = 12F2EAB81889627100CF5DCE /* macmainwindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B15E841AA80083484172DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CC82A9286117DFED018F418F /* Build configuration list for PBXProject "macmainwindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05596AB53D8D521C69802C27 /* macmainwindow */;
+			productRefGroup = 12F2EAB91889627100CF5DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09EDD45DEA4946F7400D7B8A /* macmainwindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787F99312C85FF0073FD7BA /* Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0A52A2ADF7A1E2A99738674 /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stephaneadamgarnier/dev__Qt/macmainwindow_Qt4.8 -f 'macmainwindow.xcodeproj/qt_preprocess.mak'";
+		};
+		D7BA7D76DAB5DD13389D6332 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stephaneadamgarnier/dev__Qt/macmainwindow_Qt4.8 -f 'macmainwindow.xcodeproj/qt_makeqmake.mak'";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29B8785722055ED95EF7B57 /* Build Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B093CA6F071B023A473CED0 /* main.cpp in Build Sources */,
+				5FB5AA55D68D4337904C30CF /* moc_macmainwindow.cpp in Build Sources */,
+				1FE28BABA0D5839D917E078B /* macmainwindow.mm in Build Sources */,
+			);
+			name = "Build Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B72B24813252891014BCF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.8/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+				);
+				PRODUCT_NAME = macmainwindow;
+			};
+			name = Debug;
+		};
+		8C7174830A1E4DCBA0332EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = macmainwindow;
+			};
+			name = Release;
+		};
+		BEC09A62E69C3553534FF35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = macmainwindow;
+			};
+			name = Debug;
+		};
+		D70590BEB531B51029F711BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/Library/Frameworks,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/QtCore.framework/Versions/4/Headers,
+					/usr/include/QtCore,
+					/Library/Frameworks/QtGui.framework/Versions/4/Headers,
+					/usr/include/QtGui,
+					/usr/include,
+					.,
+					.,
+					/usr/local/include,
+					/System/Library/Frameworks/CarbonCore.framework/Headers,
+					"/usr/local/Qt4.8/mkspecs/macx-xcode",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/System/Library/Frameworks/,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-L/Library/Frameworks",
+					"-F/Library/Frameworks",
+				);
+				PRODUCT_NAME = macmainwindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B3380A4D6A7D415E7F2E1E /* Build configuration list for PBXNativeTarget "macmainwindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC09A62E69C3553534FF35E /* Debug */,
+				8C7174830A1E4DCBA0332EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC82A9286117DFED018F418F /* Build configuration list for PBXProject "macmainwindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B72B24813252891014BCF61 /* Debug */,
+				D70590BEB531B51029F711BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B15E841AA80083484172DE /* Project object */;
+}
